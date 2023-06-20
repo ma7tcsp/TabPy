@@ -66,6 +66,8 @@ def setup_package():
         # but are listed here because different linux distros use custom
         # python installations.  And users can remove packages at any point
         install_requires=[
+            "BeautifulSoup",
+            "beautifulsoup4",
             "cloudpickle",
             "configparser",
             "coverage",
@@ -93,6 +95,7 @@ def setup_package():
             "pyarrow",
             "requests",
             "beautifulsoup"
+            
         ],
         entry_points={
             "console_scripts": [
