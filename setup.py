@@ -91,6 +91,8 @@ def setup_package():
             "twisted",
             "urllib3",
             "pyarrow",
+            "requests",
+            "beautifulsoup"
         ],
         entry_points={
             "console_scripts": [
